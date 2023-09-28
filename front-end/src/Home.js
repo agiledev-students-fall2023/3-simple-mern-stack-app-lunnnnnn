@@ -14,6 +14,7 @@ const Home = props => {
       <p>
         Check out the <Link to="/messages">messages page</Link>.
       </p>
+      <p>Also remember to check out  <a href="about.html">About Me</a></p>
     </>
   )
 }
