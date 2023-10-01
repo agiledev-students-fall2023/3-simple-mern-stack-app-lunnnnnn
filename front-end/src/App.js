@@ -5,6 +5,7 @@ import MessageStandalone from './MessageStandalone'
 import Home from './Home'
 import Header from './Header'
 import Footer from './Footer'
+import AboutMe from './AboutMe'
 
 const App = props => {
   return (
@@ -15,6 +16,8 @@ const App = props => {
           <Routes>
             {/* a route for the home page */}
             <Route path="/" element={<Home />} />
+            {/* a route for the about page */}
+            <Route path="/about" element={<AboutMe />} />
 
             {/* a route to see a list of all messages */}
             <Route path="/messages" element={<Messages />} />

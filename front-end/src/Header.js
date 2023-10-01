@@ -22,7 +22,7 @@ const Header = props => {
             <Link to="/messages">Messages</Link>
           </li>
           <li className="nav-item">
-          <a href="about.html">About Me</a>
+            <Link to="/about">About Me</Link>
           </li>
         </ul>
       </nav>
