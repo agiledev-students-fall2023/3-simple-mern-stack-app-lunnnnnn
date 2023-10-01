@@ -78,5 +78,17 @@ app.post('/messages/save', async (req, res) => {
   }
 })
 
+const AboutMe = {
+  name: 'Chih Lun Lee',
+  description: 'I am a senior at NYU who loves coding, building PCs, watching anime, hiking, playing basketball, skateboarding, and going out with friends.',
+  linkedinUrl: 'https://www.linkedin.com/in/chihlunlee/',
+  imageUrl: 'https://imgur.com/pxVRJRT.jpg',
+}
+app.get('/about', async (req, res) => {
+  res.json(AboutMe)
+})
+
+
 // export the express app we created to make it available to other modules
 module.exports = app // CommonJS export style!
+
